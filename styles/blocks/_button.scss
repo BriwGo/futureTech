@@ -12,6 +12,7 @@
   border: var(--border);
   border-radius: rem(12);
 
+
   @include laptop {
     min-width: rem(103);
     padding: rem(14) rem(20);

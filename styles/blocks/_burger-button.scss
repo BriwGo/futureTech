@@ -1,6 +1,5 @@
 @use '../helpers' as *;
 
-
 .burger-button {
   @include square(rem(34));
 

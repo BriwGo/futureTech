@@ -1,5 +1,12 @@
 @use 'helpers' as *;
 
+html{
+    &.is-lock{
+        overflow: hidden
+    }
+}
+
+
 body {
   @include fluid-text(18, 14);
 
@@ -11,6 +18,9 @@ body {
   background-color: var(--color-dark);
 }
 
+main{
+    flex-grow: 1;
+}
 
 h1,
 .h1,
